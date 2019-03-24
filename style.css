@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+body{margin:0;background: #000;}
+
+div{
+  height: 305px;
+  width: 610px;
+  margin: 80px auto;
+  padding: 50px 0 0 50px;
+  position: relative;
+}
+button{
+  font-size: 12px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: left;
+}
+.white{
+  height: 256px;
+  width: 64px;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  background: white;
+}
+.keyPress{
+  transform: scale(1.05);
+  border: 3px solid rgb(64,134,117);
+}
